@@ -1,0 +1,102 @@
+.notes-card {
+    width: 600px;
+    margin: 10px auto 20px auto;
+  }
+  
+  .check-modals {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 0px auto;
+  }
+  
+  .btn-danger {
+    background-color: rgb(255, 0, 251);
+  }
+  
+  .btn-danger:active, .btn-danger:hover {
+    background-color: rgb(214, 3, 210)!important; 
+  }
+  
+  .check-btn {
+    width: 245px;
+  }
+  
+  .project-details-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0px auto;
+  }
+  
+  .menu-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dates {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .pc-dates {
+    margin: 20px auto;
+  }
+  
+  .missing {
+    color: rgb(255, 0, 251);
+    font-weight: bold;
+  }
+  
+  .issue {
+    display: flex;
+  }
+  
+  .issue input {
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border: none;
+  }
+  
+  .issue input:checked {
+    height: 25px;
+    width: 25px;
+    background-color: #52c9f0;
+    border: none;
+  }
+  
+  .inside-modal {
+    text-align: center;
+  }
+  
+  .modal-btn {
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .switch-label {
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  
+  .recruiter {
+    width: 300px;
+    margin: 0px auto;
+  }
+  
+  #custom-switch {
+    background-color: #52c9f0;
+    border-color: #52c9f0;
+    box-shadow: none !important;
+    color: aliceblue;
+    background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27%3e%3ccircle r=%273%27 fill=%27%23fff%27/%3e%3c/svg%3e");
+  }
+  
+  #custom-switch:checked {
+    background-color: rgb(255, 0, 251);
+    border-color: rgb(255, 0, 251);
+    box-shadow: none !important;
+  }
+  

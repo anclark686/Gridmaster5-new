@@ -1,0 +1,23 @@
+.header { 
+    background-color: #16263B;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 32px;
+
+
+}
+.logo {
+    align-items: flex-start;
+  }
+  
+  .header-buttons {
+    display: flex;
+    align-items: center;
+  }
+  .header-buttons button {
+    text-align: right;
+    margin: auto 10px auto 0px;
+    justify-content: flex-end;
+  }

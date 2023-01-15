@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.arrow {
+  height: 24vmin;
+  width: 140px;
+
+}
+
+.line {
+  margin-top: 10px;
+  width: 110px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  height: 20px;
+  float: left;
+  animation: gradient 15s ease infinite;
+}
+
+.point {
+  width: 0;
+  height: 0;
+  border-top: 20px solid white;
+  border-bottom: 20px solid white;
+  border-left: 30px solid #16263B;
+  float: right;
+}
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: 0px 0;
+  }
+  100% {
+    background-position: 100em 0;
+  }
+}
+
+.c-animated-background {
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background: fff;
+  background: linear-gradient(to right, #52c9f0, #52c9f0, #16263B, #52c9f0, #52c9f0 );
+  -webkit-backface-visibility: hidden;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+
+.loading-header {
+  margin-top: -10px;
+  color: #6adefc;
+}
